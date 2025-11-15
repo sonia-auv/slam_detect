@@ -56,7 +56,40 @@ void SlamDetect::observationCallback(const std::shared_ptr<sensor_msgs::msg::Poi
     
     // RCLCPP_INFO_STREAM(this->get_logger(), "Size of detected points " << points.size());
     if (points.size() > 0)
-        screenDisplay(points);
+        //simpleDisplay(points);
+}
+
+void SlamDetect::sortX(std::vector<Point> &points){
+    sort(points.begin(), points.end(), [](const Point &a, const Point &b) { return abs(a.x_val) < abs(b.x_val); });
+}
+
+void SlamDetect::sortY(std::vector<Point> &points){
+    sort(points.begin(), points.end(), [](const Point &a, const Point &b) { return abs(a.y_val) < abs(b.y_val); });
+}
+
+void SlamDetect::sortZ(std::vector<Point> &points){
+    sort(points.begin(), points.end(), [](const Point &a, const Point &b) { return abs(a.z_val) < abs(b.z_val); });
+}
+
+void SlamDetect::sort3D(std::vector<Point> &points){
+    sort(points.begin(), points.end(), [](const Point &a, const Point &b) { 
+        float d1 = sqrt(pow(a.x_val, 2) + pow(a.y_val, 2) + pow(a.z_val, 2));
+        float d2 = sqrt(pow(b.x_val, 2) + pow(b.y_val, 2) + pow(b.z_val, 2));
+        return d1 < d2;
+    });
+}
+
+void SlamDetect::simpleDisplay(std::vector<Point> points){
+    int numIt = 1;
+    for (auto p : points){
+        RCLCPP_INFO_STREAM(this->get_logger(), "x value : " << p.x_val);
+        RCLCPP_INFO_STREAM(this->get_logger(), "y value : " << p.y_val);
+        RCLCPP_INFO_STREAM(this->get_logger(), "z value : " << p.z_val);
+        RCLCPP_INFO_STREAM(this->get_logger(), "number of iterations : " << numIt);
+        RCLCPP_INFO_STREAM(this->get_logger(), "");
+        numIt++;
+    }
+    RCLCPP_INFO_STREAM(this->get_logger(), "observations point cloud sorted");    
 }
 
 void SlamDetect::screenDisplay(std::vector<Point> points)
