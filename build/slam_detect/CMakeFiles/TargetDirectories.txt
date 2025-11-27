@@ -1,0 +1,10 @@
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/uninstall.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/slam_detect_uninstall.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/slam_detect.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/test.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/edit_cache.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/rebuild_cache.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/list_install_components.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/install.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/install/local.dir
+/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect/CMakeFiles/install/strip.dir

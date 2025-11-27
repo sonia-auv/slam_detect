@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake --build /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target slam_detect[0m
+[0.056s] [ 33%] [32mBuilding CXX object CMakeFiles/slam_detect.dir/src/SlamDetect.cpp.o[0m
+[5.639s] [ 66%] [32m[1mLinking CXX executable slam_detect[0m
+[5.922s] [100%] Built target slam_detect
+[5.930s] Invoked command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake --build /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect -- -j8 -l8
+[5.937s] Invoking command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake --install /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect
+[5.941s] -- Install configuration: ""
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include/slam_detect
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include/slam_detect/SlamDetect.hpp
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/launch
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/launch/launch.py
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/config
+[5.942s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/config/.gitkeep
+[5.942s] -- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/lib/slam_detect/slam_detect
+[5.944s] -- Set runtime path of "/home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/lib/slam_detect/slam_detect" to ""
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/package_run_dependencies/slam_detect
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/parent_prefix_path/slam_detect
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/ament_prefix_path.sh
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/ament_prefix_path.dsv
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/path.sh
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/path.dsv
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.bash
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.sh
+[5.944s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.zsh
+[5.945s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.dsv
+[5.945s] -- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/package.dsv
+[5.945s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/packages/slam_detect
+[5.945s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/cmake/slam_detectConfig.cmake
+[5.945s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/cmake/slam_detectConfig-version.cmake
+[5.945s] -- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/package.xml
+[5.946s] Invoked command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake --install /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect

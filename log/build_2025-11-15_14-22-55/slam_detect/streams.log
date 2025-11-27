@@ -1,0 +1,163 @@
+[0.008s] Invoking command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake /home/sonia/ros2_sonia_ws/src/slam_detect -DCMAKE_INSTALL_PREFIX=/home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.229s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.239s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.355s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.432s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.521s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.590s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.608s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.635s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.642s] -- Looking for pthread.h
+[0.699s] -- Looking for pthread.h - found
+[0.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.757s] -- Found Threads: TRUE  
+[0.791s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.858s] -- Configuring done
+[0.864s] -- Generating done
+[0.866s] -- Build files have been written to: /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect
+[0.872s] Invoked command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake /home/sonia/ros2_sonia_ws/src/slam_detect -DCMAKE_INSTALL_PREFIX=/home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect
+[0.874s] Invoking command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake --build /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect -- -j8 -l8
+[0.916s] [ 33%] [32mBuilding CXX object CMakeFiles/slam_detect.dir/src/SlamDetect.cpp.o[0m
+[0.916s] [ 66%] [32mBuilding CXX object CMakeFiles/slam_detect.dir/src/main.cpp.o[0m
+[2.509s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.509s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.509s]    25 |     void sortX([01;31m[Ktd[m[K::vector<Point> &points);
+[2.509s]       |                [01;31m[K^~[m[K
+[2.509s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.509s]    25 |     void sortX(td::vector[01;31m[K<[m[KPoint> &points);
+[2.509s]       |                          [01;31m[K^[m[K
+[2.509s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.509s]    27 |     void sortY([01;31m[Ktd[m[K::vector<Point> &points);
+[2.509s]       |                [01;31m[K^~[m[K
+[2.509s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.510s]    27 |     void sortY(td::vector[01;31m[K<[m[KPoint> &points);
+[2.510s]       |                          [01;31m[K^[m[K
+[2.510s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.510s]    29 |     void sortZ([01;31m[Ktd[m[K::vector<Point> &points);
+[2.510s]       |                [01;31m[K^~[m[K
+[2.510s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.510s]    29 |     void sortZ(td::vector[01;31m[K<[m[KPoint> &points);
+[2.510s]       |                          [01;31m[K^[m[K
+[2.510s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.510s]    31 |     void sort3D([01;31m[Ktd[m[K::vector<Point> &points);
+[2.510s]       |                 [01;31m[K^~[m[K
+[2.510s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.510s]    31 |     void sort3D(td::vector[01;31m[K<[m[KPoint> &points);
+[2.510s]       |                           [01;31m[K^[m[K
+[2.510s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/main.cpp:2[m[K:
+[2.510s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.510s]    25 |     void sortX([01;31m[Ktd[m[K::vector<Point> &points);
+[2.510s]       |                [01;31m[K^~[m[K
+[2.510s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.511s]    25 |     void sortX(td::vector[01;31m[K<[m[KPoint> &points);
+[2.511s]       |                          [01;31m[K^[m[K
+[2.511s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.511s]    27 |     void sortY([01;31m[Ktd[m[K::vector<Point> &points);
+[2.511s]       |                [01;31m[K^~[m[K
+[2.511s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.511s]    27 |     void sortY(td::vector[01;31m[K<[m[KPoint> &points);
+[2.511s]       |                          [01;31m[K^[m[K
+[2.511s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.511s]    29 |     void sortZ([01;31m[Ktd[m[K::vector<Point> &points);
+[2.511s]       |                [01;31m[K^~[m[K
+[2.511s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.511s]    29 |     void sortZ(td::vector[01;31m[K<[m[KPoint> &points);
+[2.511s]       |                          [01;31m[K^[m[K
+[2.511s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+[2.511s]    31 |     void sort3D([01;31m[Ktd[m[K::vector<Point> &points);
+[2.511s]       |                 [01;31m[K^~[m[K
+[2.511s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.511s]    31 |     void sort3D(td::vector[01;31m[K<[m[KPoint> &points);
+[2.512s]       |                           [01;31m[K^[m[K
+[2.548s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:62:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sortX(std::vector<SlamDetect::Point>&)[m[K’
+[2.548s]    62 | void [01;31m[KSlamDetect[m[K::sortX(std::vector<Point> &points){
+[2.548s]       |      [01;31m[K^~~~~~~~~~[m[K
+[2.548s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.548s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sortX(int)[m[K’
+[2.548s]    25 |     void [01;36m[KsortX[m[K(td::vector<Point> &points);
+[2.548s]       |          [01;36m[K^~~~~[m[K
+[2.548s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+[2.548s]     7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+[2.548s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.548s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+[2.549s]    62 | void SlamDetect::sortX(std::[01;31m[Kvector<Point>[m[K &points){
+[2.549s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.549s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.549s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.549s]    15 |     struct [01;36m[KPoint[m[K
+[2.549s]       |            [01;36m[K^~~~~[m[K
+[2.549s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:66:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sortY(std::vector<SlamDetect::Point>&)[m[K’
+[2.549s]    66 | void [01;31m[KSlamDetect[m[K::sortY(std::vector<Point> &points){
+[2.549s]       |      [01;31m[K^~~~~~~~~~[m[K
+[2.549s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.549s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sortY(int)[m[K’
+[2.549s]    27 |     void [01;36m[KsortY[m[K(td::vector<Point> &points);
+[2.549s]       |          [01;36m[K^~~~~[m[K
+[2.549s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+[2.549s]     7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+[2.549s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.550s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+[2.550s]    66 | void SlamDetect::sortY(std::[01;31m[Kvector<Point>[m[K &points){
+[2.550s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.550s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.550s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.550s]    15 |     struct [01;36m[KPoint[m[K
+[2.550s]       |            [01;36m[K^~~~~[m[K
+[2.550s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:70:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sortZ(std::vector<SlamDetect::Point>&)[m[K’
+[2.550s]    70 | void [01;31m[KSlamDetect[m[K::sortZ(std::vector<Point> &points){
+[2.550s]       |      [01;31m[K^~~~~~~~~~[m[K
+[2.550s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.550s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sortZ(int)[m[K’
+[2.550s]    29 |     void [01;36m[KsortZ[m[K(td::vector<Point> &points);
+[2.550s]       |          [01;36m[K^~~~~[m[K
+[2.550s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+[2.551s]     7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+[2.551s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.551s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:70:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+[2.551s]    70 | void SlamDetect::sortZ(std::[01;31m[Kvector<Point>[m[K &points){
+[2.551s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[2.551s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.551s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.551s]    15 |     struct [01;36m[KPoint[m[K
+[2.551s]       |            [01;36m[K^~~~~[m[K
+[2.551s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:74:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sort3D(std::vector<SlamDetect::Point>&)[m[K’
+[2.551s]    74 | void [01;31m[KSlamDetect[m[K::sort3D(std::vector<Point> &points){
+[2.551s]       |      [01;31m[K^~~~~~~~~~[m[K
+[2.551s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.552s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sort3D(int)[m[K’
+[2.552s]    31 |     void [01;36m[Ksort3D[m[K(td::vector<Point> &points);
+[2.552s]       |          [01;36m[K^~~~~~[m[K
+[2.552s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+[2.552s]     7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+[2.552s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.552s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:74:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+[2.552s]    74 | void SlamDetect::sort3D(std::[01;31m[Kvector<Point>[m[K &points){
+[2.552s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[2.552s] In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[2.552s] [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.552s]    15 |     struct [01;36m[KPoint[m[K
+[2.552s]       |            [01;36m[K^~~~~[m[K
+[2.855s] gmake[2]: *** [CMakeFiles/slam_detect.dir/build.make:90: CMakeFiles/slam_detect.dir/src/main.cpp.o] Error 1
+[2.855s] gmake[2]: *** Waiting for unfinished jobs....
+[4.139s] gmake[2]: *** [CMakeFiles/slam_detect.dir/build.make:76: CMakeFiles/slam_detect.dir/src/SlamDetect.cpp.o] Error 1
+[4.139s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/slam_detect.dir/all] Error 2
+[4.139s] gmake: *** [Makefile:146: all] Error 2
+[4.141s] Invoked command in '/home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sonia/ros2_sonia_ws/install/rqt_waypoint:/home/sonia/ros2_sonia_ws/install/rqt_toolbar:/home/sonia/ros2_sonia_ws/install/rqt_thruster_effort:/home/sonia/ros2_sonia_ws/install/rqt_thruster_control:/home/sonia/ros2_sonia_ws/install/rqt_power:/home/sonia/ros2_sonia_ws/install/rqt_dvl:/home/sonia/ros2_sonia_ws/install/rqt_depth_indicator:/home/sonia/ros2_sonia_ws/install/rqt_actuator:/home/sonia/ros2_sonia_ws/install/sonia_common_py:/opt/ros/humble /usr/bin/cmake --build /home/sonia/ros2_sonia_ws/src/slam_detect/build/slam_detect -- -j8 -l8

@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target slam_detect[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/slam_detect.dir/src/SlamDetect.cpp.o[0m
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:[m[K In member function ‘[01m[Kvoid SlamDetect::observationCallback(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:58:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   58 |     [01;35m[Kif[m[K (points.size() > 0)
+      |     [01;35m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:60:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   60 |         [01;36m[KsimpleDisplay[m[K(points);
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable slam_detect[0m
+[100%] Built target slam_detect
+-- Install configuration: ""
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include/slam_detect
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include/slam_detect/SlamDetect.hpp
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/launch
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/launch/launch.py
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/config
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/config/.gitkeep
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/lib/slam_detect/slam_detect
+-- Set runtime path of "/home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/lib/slam_detect/slam_detect" to ""
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/package_run_dependencies/slam_detect
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/parent_prefix_path/slam_detect
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/path.sh
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/path.dsv
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.bash
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.sh
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.zsh
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.dsv
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/package.dsv
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/packages/slam_detect
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/cmake/slam_detectConfig.cmake
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/cmake/slam_detectConfig-version.cmake
+-- Up-to-date: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/package.xml
