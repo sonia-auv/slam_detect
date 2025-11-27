@@ -22,13 +22,13 @@ class SlamDetect : public rclcpp::Node
 
     void observationCallback(const std::shared_ptr<sensor_msgs::msg::PointCloud2> msg);
 
-    void sortX(td::vector<Point> &points);
+    void sortX(std::vector<Point> &points);
 
-    void sortY(td::vector<Point> &points);
+    void sortY(std::vector<Point> &points);
 
-    void sortZ(td::vector<Point> &points);
+    void sortZ(std::vector<Point> &points);
 
-    void sort3D(td::vector<Point> &points);
+    void sort3D(std::vector<Point> &points);
 
     void simpleDisplay(std::vector<Point> points);
 

@@ -1,0 +1,7 @@
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:[m[K In member function ‘[01m[Kvoid SlamDetect::observationCallback(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:58:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   58 |     [01;35m[Kif[m[K (points.size() > 0)
+      |     [01;35m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:60:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   60 |         [01;36m[KsimpleDisplay[m[K(points);
+      |         [01;36m[K^~~~~~~~~~~~~[m[K

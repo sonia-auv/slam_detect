@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target slam_detect[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/slam_detect.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/slam_detect.dir/src/SlamDetect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable slam_detect[0m
+[100%] Built target slam_detect
+-- Install configuration: ""
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include/slam_detect
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/include/slam_detect/SlamDetect.hpp
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/launch
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/launch/launch.py
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/config
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/config/.gitkeep
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/lib/slam_detect/slam_detect
+-- Set runtime path of "/home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/lib/slam_detect/slam_detect" to ""
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/package_run_dependencies/slam_detect
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/parent_prefix_path/slam_detect
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/ament_prefix_path.sh
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/ament_prefix_path.dsv
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/path.sh
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/environment/path.dsv
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.bash
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.sh
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.zsh
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/local_setup.dsv
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/package.dsv
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/ament_index/resource_index/packages/slam_detect
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/cmake/slam_detectConfig.cmake
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/cmake/slam_detectConfig-version.cmake
+-- Installing: /home/sonia/ros2_sonia_ws/src/slam_detect/install/slam_detect/share/slam_detect/package.xml

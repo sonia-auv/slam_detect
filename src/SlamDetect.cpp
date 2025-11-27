@@ -55,8 +55,10 @@ void SlamDetect::observationCallback(const std::shared_ptr<sensor_msgs::msg::Poi
     }
     
     // RCLCPP_INFO_STREAM(this->get_logger(), "Size of detected points " << points.size());
-    if (points.size() > 0)
-        //simpleDisplay(points);
+    if (points.size() > 0){
+        sort3D(points);
+        simpleDisplay(points);
+    }
 }
 
 void SlamDetect::sortX(std::vector<Point> &points){
@@ -73,9 +75,7 @@ void SlamDetect::sortZ(std::vector<Point> &points){
 
 void SlamDetect::sort3D(std::vector<Point> &points){
     sort(points.begin(), points.end(), [](const Point &a, const Point &b) { 
-        float d1 = sqrt(pow(a.x_val, 2) + pow(a.y_val, 2) + pow(a.z_val, 2));
-        float d2 = sqrt(pow(b.x_val, 2) + pow(b.y_val, 2) + pow(b.z_val, 2));
-        return d1 < d2;
+        return sqrt(pow(a.x_val, 2) + pow(a.y_val, 2) + pow(a.z_val, 2)) < sqrt(pow(b.x_val, 2) + pow(b.y_val, 2) + pow(b.z_val, 2));
     });
 }
 

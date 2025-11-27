@@ -1,0 +1,123 @@
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   25 |     void sortX([01;31m[Ktd[m[K::vector<Point> &points);
+      |                [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   25 |     void sortX(td::vector[01;31m[K<[m[KPoint> &points);
+      |                          [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   27 |     void sortY([01;31m[Ktd[m[K::vector<Point> &points);
+      |                [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   27 |     void sortY(td::vector[01;31m[K<[m[KPoint> &points);
+      |                          [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   29 |     void sortZ([01;31m[Ktd[m[K::vector<Point> &points);
+      |                [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   29 |     void sortZ(td::vector[01;31m[K<[m[KPoint> &points);
+      |                          [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   31 |     void sort3D([01;31m[Ktd[m[K::vector<Point> &points);
+      |                 [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   31 |     void sort3D(td::vector[01;31m[K<[m[KPoint> &points);
+      |                           [01;31m[K^[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/main.cpp:2[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   25 |     void sortX([01;31m[Ktd[m[K::vector<Point> &points);
+      |                [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   25 |     void sortX(td::vector[01;31m[K<[m[KPoint> &points);
+      |                          [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   27 |     void sortY([01;31m[Ktd[m[K::vector<Point> &points);
+      |                [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   27 |     void sortY(td::vector[01;31m[K<[m[KPoint> &points);
+      |                          [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   29 |     void sortZ([01;31m[Ktd[m[K::vector<Point> &points);
+      |                [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   29 |     void sortZ(td::vector[01;31m[K<[m[KPoint> &points);
+      |                          [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ has not been declared
+   31 |     void sort3D([01;31m[Ktd[m[K::vector<Point> &points);
+      |                 [01;31m[K^~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   31 |     void sort3D(td::vector[01;31m[K<[m[KPoint> &points);
+      |                           [01;31m[K^[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:62:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sortX(std::vector<SlamDetect::Point>&)[m[K’
+   62 | void [01;31m[KSlamDetect[m[K::sortX(std::vector<Point> &points){
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:25:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sortX(int)[m[K’
+   25 |     void [01;36m[KsortX[m[K(td::vector<Point> &points);
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+    7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+   62 | void SlamDetect::sortX(std::[01;31m[Kvector<Point>[m[K &points){
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     struct [01;36m[KPoint[m[K
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:66:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sortY(std::vector<SlamDetect::Point>&)[m[K’
+   66 | void [01;31m[KSlamDetect[m[K::sortY(std::vector<Point> &points){
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:27:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sortY(int)[m[K’
+   27 |     void [01;36m[KsortY[m[K(td::vector<Point> &points);
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+    7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+   66 | void SlamDetect::sortY(std::[01;31m[Kvector<Point>[m[K &points){
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     struct [01;36m[KPoint[m[K
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:70:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sortZ(std::vector<SlamDetect::Point>&)[m[K’
+   70 | void [01;31m[KSlamDetect[m[K::sortZ(std::vector<Point> &points){
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:29:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sortZ(int)[m[K’
+   29 |     void [01;36m[KsortZ[m[K(td::vector<Point> &points);
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+    7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:70:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+   70 | void SlamDetect::sortZ(std::[01;31m[Kvector<Point>[m[K &points){
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     struct [01;36m[KPoint[m[K
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:74:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid SlamDetect::sort3D(std::vector<SlamDetect::Point>&)[m[K’
+   74 | void [01;31m[KSlamDetect[m[K::sort3D(std::vector<Point> &points){
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:31:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid SlamDetect::sort3D(int)[m[K’
+   31 |     void [01;36m[Ksort3D[m[K(td::vector<Point> &points);
+      |          [01;36m[K^~~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass SlamDetect[m[K’ defined here
+    7 | class [01;36m[KSlamDetect[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:74:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct SlamDetect::Point[m[K’ is private within this context
+   74 | void SlamDetect::sort3D(std::[01;31m[Kvector<Point>[m[K &points){
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/src/SlamDetect.cpp:1[m[K:
+[01m[K/home/sonia/ros2_sonia_ws/src/slam_detect/include/slam_detect/SlamDetect.hpp:15:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     struct [01;36m[KPoint[m[K
+      |            [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/slam_detect.dir/build.make:90: CMakeFiles/slam_detect.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/slam_detect.dir/build.make:76: CMakeFiles/slam_detect.dir/src/SlamDetect.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/slam_detect.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
