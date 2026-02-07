@@ -5,6 +5,7 @@ using std::placeholders::_1;
 SlamDetect::SlamDetect() : Node("sonia_slam_detect"), _log_counter(0)
 {
     _observations = this->create_subscription<sensor_msgs::msg::PointCloud2>("/visual_slam/vis/observations_cloud", 10, std::bind(&SlamDetect::observationCallback, this, _1));
+
 }
 
 
@@ -56,8 +57,9 @@ void SlamDetect::observationCallback(const std::shared_ptr<sensor_msgs::msg::Poi
     
     // RCLCPP_INFO_STREAM(this->get_logger(), "Size of detected points " << points.size());
     if (points.size() > 0){
-        sort3D(points);
-        simpleDisplay(points);
+        sortZ(points);
+        zThreshold(points,1.0);
+        zAxisDisplay(points);
     }
 }
 
@@ -79,8 +81,20 @@ void SlamDetect::sort3D(std::vector<Point> &points){
     });
 }
 
+void SlamDetect::xThreshold(std::vector<Point> &points, float threshold){
+    points.erase(std::remove_if(points.begin(), points.end(), [=](Point p) {return p.x_val >= threshold ;}), points.end());
+}
+
+void SlamDetect::yThreshold(std::vector<Point> &points, float threshold){
+    points.erase(std::remove_if(points.begin(), points.end(), [=](Point p) {return p.y_val >= threshold ;}), points.end());
+}
+
+void SlamDetect::zThreshold(std::vector<Point> &points, float threshold){
+    points.erase(std::remove_if(points.begin(), points.end(), [=](Point p) {return p.z_val >= threshold ;}), points.end());
+}
+
 void SlamDetect::simpleDisplay(std::vector<Point> points){
-    int numIt = 1;
+    int numIt = 0;
     for (auto p : points){
         RCLCPP_INFO_STREAM(this->get_logger(), "x value : " << p.x_val);
         RCLCPP_INFO_STREAM(this->get_logger(), "y value : " << p.y_val);
@@ -89,7 +103,14 @@ void SlamDetect::simpleDisplay(std::vector<Point> points){
         RCLCPP_INFO_STREAM(this->get_logger(), "");
         numIt++;
     }
-    RCLCPP_INFO_STREAM(this->get_logger(), "observations point cloud sorted");    
+    RCLCPP_INFO_STREAM(this->get_logger(), "observations point cloud sorted");
+}
+
+void SlamDetect::zAxisDisplay(std::vector<Point> points){
+    for (auto p : points){
+        RCLCPP_INFO_STREAM(this->get_logger(), "z value : " << p.z_val);
+    }
+    RCLCPP_INFO_STREAM(this->get_logger(), "z values displayed");    
 }
 
 void SlamDetect::screenDisplay(std::vector<Point> points)

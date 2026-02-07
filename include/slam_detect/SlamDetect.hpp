@@ -30,9 +30,17 @@ class SlamDetect : public rclcpp::Node
 
     void sort3D(std::vector<Point> &points);
 
+    void xThreshold(std::vector<Point> &points, float threshold);
+
+    void yThreshold(std::vector<Point> &points, float threshold);
+
+    void zThreshold(std::vector<Point> &points, float threshold);
+
     void simpleDisplay(std::vector<Point> points);
 
     void screenDisplay(std::vector<Point> points);
+
+    void zAxisDisplay(std::vector<Point> points);
 
     bool log_check();
 
